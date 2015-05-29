@@ -1,8 +1,10 @@
 <div class="home-image">
   <h1>Welcome to Word Puzzle</h1>
-  <form class=form-group action="/word_puzzle">
-    <label class=form-control for=words_to_puzzle>Enter the word(s) you would like to turn into a puzzle:</label>
-    <input  class= "form-control" type="text" name="words_to_puzzle">
+  <form action="/word_puzzle">
+    <div class="form-group">
+      <label for="words_to_puzzle">Enter the word(s) you would like to turn into a puzzle:</label>
+      <input class= "form-control" type="text" name="words_to_puzzle">
+    </div>
     <button type="submit" class="btn btn-success">Create Puzzle</button>
   </form>
 </div>
