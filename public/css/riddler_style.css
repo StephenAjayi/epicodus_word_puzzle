@@ -1,0 +1,34 @@
+body {
+  background: #f4f4f4;
+}
+.home-image {
+  background: url("/images/the_riddler.jpg");
+  padding-top: 300px;
+  padding-bottom: 300px;
+  margin-left: 150px;
+  position: relative;
+  width: 873px;
+}
+
+.home-image h1{
+  color: white;
+}
+
+.jumbotron-logo {
+  background: url("/images/question.jpg") center repeat;
+  padding-top:  200px;
+  padding-bottom: 200px;
+}
+
+.jumbotron {
+  background: transparent;
+  color: #79b743;
+}
+
+.navbar-fixed-top {
+  background: #69bb01;
+}
+
+.nav-pills a {
+  color: #333
+}
